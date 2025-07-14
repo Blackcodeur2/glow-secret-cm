@@ -8,7 +8,6 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "homepage": "https://blackcodeur2.github.io/glow-secret-cm",
     "predeploy": "npm run build"
   },
   "dependencies": {
