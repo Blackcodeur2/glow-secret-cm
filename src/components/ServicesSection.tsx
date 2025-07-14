@@ -23,18 +23,6 @@ const ServicesSection = () => {
 
   const services = [
     {
-      icon: <Users className="w-12 h-12" />,
-      title: "Coaching Personnel",
-      description: "Séances individuelles pour un accompagnement personnalisé vers vos objectifs de bien-être",
-      image: "https://images.pexels.com/photos/7176026/pexels-photo-7176026.jpeg?auto=compress&cs=tinysrgb&w=600"
-    },
-    {
-      icon: <Mic className="w-12 h-12" />,
-      title: "Conférences",
-      description: "Interventions inspirantes pour entreprises et événements sur le développement personnel",
-      image: "https://images.pexels.com/photos/2608517/pexels-photo-2608517.jpeg?auto=compress&cs=tinysrgb&w=600"
-    },
-    {
       icon: <BookOpen className="w-12 h-12" />,
       title: "Formations",
       description: "Ateliers pratiques et formations complètes pour maîtriser les techniques de bien-être",
