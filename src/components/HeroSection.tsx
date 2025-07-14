@@ -58,9 +58,9 @@ const HeroSection = () => {
           <div className="relative">
             <div className="relative z-10">
               <img 
-                src="https://images.pexels.com/photos/4226140/pexels-photo-4226140.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                src="/imgages/affiche.jpg" 
                 alt="Personne lisant le Guide Ultime du Bien-être de Glow Secret CM dans un environnement paisible - développement personnel"
-                className="w-full h-64 sm:h-80 md:h-96 lg:h-[500px] object-cover rounded-2xl shadow-2xl mx-auto"
+                className="w-full h-full sm:h-80 md:h-96 lg:h-[700px] object-cover rounded-2xl shadow-2xl mx-auto"
                 loading="eager"
                 itemProp="image"
               />

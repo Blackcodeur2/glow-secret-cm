@@ -37,7 +37,7 @@ const BookSection = () => {
           <div className="relative">
             <div className="bg-gradient-to-br from-green-100 to-pink-100 p-4 sm:p-8 rounded-2xl">
               <img 
-                src="https://images.pexels.com/photos/1029141/pexels-photo-1029141.jpeg?auto=compress&cs=tinysrgb&w=600" 
+                src="/imgages/livre.jpg" 
                 alt="Couverture du livre Le Guide Ultime du Bien-être par Glow Secret CM - développement personnel et épanouissement"
                 className="w-full max-w-xs sm:max-w-md mx-auto rounded-lg shadow-2xl transform hover:scale-105 transition-transform duration-300"
                 loading="lazy"

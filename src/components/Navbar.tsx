@@ -18,42 +18,44 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo et nom */}
           <div className="flex items-center space-x-3">
-            <img 
-              src="/author-photo.jpg" 
+            <img
+              src="/imgages/gs_logo.jpg"
               alt="Glow Secret CM Logo"
-              className="w-12 h-12 object-contain rounded-lg"
-            />
-            <span className="text-lg sm:text-xl font-bold text-green-700 hidden sm:block">Glow Secret CM</span>
-            <span className="text-sm font-bold text-green-700 sm:hidden">Glow Secret</span>
+              style={{
+                width: '120px',
+                height: '60px',
+                borderRadius: '12px',
+                objectFit: 'cover',
+              }} />
           </div>
 
           {/* Navigation desktop */}
           <div className="hidden lg:flex items-center space-x-6 xl:space-x-8">
-            <button 
+            <button
               onClick={() => scrollToSection('livre')}
               className="text-sm xl:text-base text-green-700 hover:text-pink-600 font-medium transition-colors whitespace-nowrap"
             >
               À propos du livre
             </button>
-            <button 
+            <button
               onClick={() => scrollToSection('produits')}
               className="text-sm xl:text-base text-green-700 hover:text-pink-600 font-medium transition-colors"
             >
               Produits
             </button>
-            <button 
+            <button
               onClick={() => scrollToSection('services')}
               className="text-sm xl:text-base text-green-700 hover:text-pink-600 font-medium transition-colors"
             >
               Services
             </button>
-            <button 
+            <button
               onClick={() => scrollToSection('auteur')}
               className="text-sm xl:text-base text-green-700 hover:text-pink-600 font-medium transition-colors whitespace-nowrap"
             >
               L'auteur
             </button>
-            <button 
+            <button
               onClick={() => scrollToSection('contact')}
               className="text-sm xl:text-base text-green-700 hover:text-pink-600 font-medium transition-colors"
             >
@@ -76,31 +78,31 @@ const Navbar = () => {
         {isMenuOpen && (
           <div className="lg:hidden bg-white border-t shadow-lg">
             <div className="px-2 pt-2 pb-3 space-y-1">
-              <button 
+              <button
                 onClick={() => scrollToSection('livre')}
                 className="block w-full text-left px-3 py-3 text-green-700 hover:text-pink-600 hover:bg-green-50 font-medium rounded-lg transition-colors"
               >
                 À propos du livre
               </button>
-              <button 
+              <button
                 onClick={() => scrollToSection('produits')}
                 className="block w-full text-left px-3 py-3 text-green-700 hover:text-pink-600 hover:bg-green-50 font-medium rounded-lg transition-colors"
               >
                 Produits
               </button>
-              <button 
+              <button
                 onClick={() => scrollToSection('services')}
                 className="block w-full text-left px-3 py-3 text-green-700 hover:text-pink-600 hover:bg-green-50 font-medium rounded-lg transition-colors"
               >
                 Services
               </button>
-              <button 
+              <button
                 onClick={() => scrollToSection('auteur')}
                 className="block w-full text-left px-3 py-3 text-green-700 hover:text-pink-600 hover:bg-green-50 font-medium rounded-lg transition-colors"
               >
                 À propos de l'auteur
               </button>
-              <button 
+              <button
                 onClick={() => scrollToSection('contact')}
                 className="block w-full text-left px-3 py-3 text-green-700 hover:text-pink-600 hover:bg-green-50 font-medium rounded-lg transition-colors"
               >
