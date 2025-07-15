@@ -42,7 +42,7 @@ const AuthorSection = () => {
           <div className="text-center lg:text-left">
             <div className="relative inline-block mb-6 sm:mb-8">
               <img 
-                src="/author-photo.jpg" 
+                src="/imgages/auteur.jpg" 
                 alt="Glow Secret CM - Expert en développement personnel, auteur du Guide Ultime du Bien-être, coach certifié avec 15 ans d'expérience"
                 className="w-64 h-64 sm:w-80 sm:h-80 object-cover rounded-2xl shadow-2xl mx-auto"
                 loading="lazy"

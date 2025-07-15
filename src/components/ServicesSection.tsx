@@ -24,15 +24,15 @@ const ServicesSection = () => {
   const services = [
     {
       icon: <BookOpen className="w-12 h-12" />,
-      title: "Formations",
+      title: "Manicure et Pédicure",
       description: "Ateliers pratiques et formations complètes pour maîtriser les techniques de bien-être",
-      image: "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=600"
+      image: "/imgages/manicure.jpg"
     },
     {
       icon: <Heart className="w-12 h-12" />,
-      title: "Thérapie de Groupe",
+      title: "Soins du Visage",
       description: "Sessions collectives pour créer des liens et partager des expériences enrichissantes",
-      image: "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=600"
+      image: "/imgages/visage.avif"
     }
   ];
 
@@ -75,14 +75,7 @@ const ServicesSection = () => {
               </div>
               
               {/* Overlay au hover */}
-              <div className="absolute inset-0 bg-green-600/90 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                <button 
-                  onClick={() => scrollToContact(service.title, service.description)}
-                  className="bg-white text-green-600 px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold text-sm sm:text-base hover:bg-gray-100 transition-colors"
-                >
-                  En savoir plus
-                </button>
-              </div>
+              
             </div>
           ))}
         </div>

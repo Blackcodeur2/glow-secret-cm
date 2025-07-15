@@ -27,7 +27,7 @@ const ProductsSection = () => {
       name: "Guide Santé Homme",
       description:
         "Un livre dédié aux hommes, révélant des astuces pratiques et naturelles pour maintenir une santé reproductive optimale.",
-      price: "8 500 FCFA",
+      price: "6 000 FCFA",
       image:
         "/imgages/livre.jpg"
     },
@@ -36,18 +36,9 @@ const ProductsSection = () => {
       name: "Guide Fertilité Femme",
       description:
         "Un guide complet conçu pour les femmes, avec des conseils pour améliorer la fertilité, renforcer le bien-être hormonal et rester en bonne santé.",
-      price: "10 000 FCFA",
+      price: "4 000 FCFA",
       image:
         "/imgages/livre.jpg"
-    },
-    {
-      icon: <FlaskConical className="w-8 h-8 text-purple-700" />,
-      name: "Sirop Reproductif Naturel",
-      description:
-        "Un sirop pharmaceutique 100% naturel, formulé pour soutenir la vitalité, la fertilité et la santé reproductive de façon équilibrée.",
-      price: "6 000 FCFA",
-      image:
-        "https://images.pexels.com/photos/7615461/pexels-photo-7615461.jpeg?auto=compress&cs=tinysrgb&w=600"
     }
   ];
 

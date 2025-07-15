@@ -56,7 +56,7 @@ const ContactSection = () => {
     const body = encodeURIComponent(
       `Nom: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
     );
-    const mailtoLink = `mailto:francktazoh@gmail.com?subject=${subject}&body=${body}`;
+    const mailtoLink = `mailto:blackcodeurtest@gmail.com?subject=${subject}&body=${body}`;
     
     // Ouverture du client mail
     window.location.href = mailtoLink;

@@ -10,15 +10,15 @@ const Footer = () => {
           <div>
             <div className="flex items-center space-x-3 mb-4">
               <img 
-                src="/author-photo.jpg" 
+                src="/imgages/gs_logo.jpg" 
                 alt="Glow Secret CM Logo"
-                className="w-12 h-12 object-contain rounded-lg"
+                className="w-8 h-8 object-contain rounded-lg"
               />
               <span className="text-lg sm:text-xl font-bold">Glow Secret CM</span>
             </div>
             <p className="text-sm sm:text-base text-green-200 leading-relaxed">
               Votre guide vers l'épanouissement personnel et le bien-être. 
-              Transformez votre vie avec nos livres, formations et services de coaching.
+              Transformez votre vie avec nos produits et services de coaching.
             </p>
           </div>
 
@@ -29,8 +29,8 @@ const Footer = () => {
               <MapPin className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
               <div>
                 <p className="text-sm sm:text-base text-green-200">Glow Secret CM</p>
-                <p className="text-sm sm:text-base text-green-200">123 Rue du Bien-être</p>
-                <p className="text-sm sm:text-base text-green-200">75001 Paris, France</p>
+                <p className="text-sm sm:text-base text-green-200"> Dschang, Cameroun</p>
+                
                 <a 
                   href="https://maps.google.com" 
                   target="_blank" 
@@ -84,7 +84,7 @@ const Footer = () => {
         <div className="border-t border-green-700 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-green-200 text-sm mb-4 md:mb-0">
-              © 2024 Glow Secret CM. Tous droits réservés.
+              © 2025 Glow Secret CM. Tous droits réservés.
             </p>
             <div className="flex flex-wrap justify-center md:justify-end space-x-4 sm:space-x-6 text-sm">
               <a href="#" className="text-green-200 hover:text-white transition-colors">
