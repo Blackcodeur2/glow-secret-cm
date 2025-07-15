@@ -37,8 +37,8 @@ const ProductsSection = () => {
       description:
         "Un guide complet conçu pour les femmes, avec des conseils pour améliorer la fertilité, renforcer le bien-être hormonal et rester en bonne santé.",
       price: "4 000 FCFA",
-      image:
-        "/imgages/livre.jpg"
+      image:"/imgages/livre.jpg",
+
     }
   ];
 

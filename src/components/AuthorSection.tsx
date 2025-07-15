@@ -53,10 +53,7 @@ const AuthorSection = () => {
               </div>
             </div>
             
-            <h3 className="text-2xl sm:text-3xl font-bold text-green-800 mb-4" itemProp="name">Glow Secret CM</h3>
-            <p className="text-base sm:text-lg text-pink-600 font-semibold mb-4 sm:mb-6" itemProp="jobTitle">
-              Coach en développement personnel & Auteur
-            </p>
+            <h3 className="text-2xl sm:text-3xl font-bold text-green-800 mb-4" itemProp="name">Gilbert TATANG</h3>
           </div>
 
           {/* Biographie et réalisations */}

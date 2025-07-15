@@ -17,7 +17,7 @@ const Footer = () => {
               <span className="text-lg sm:text-xl font-bold">Glow Secret CM</span>
             </div>
             <p className="text-sm sm:text-base text-green-200 leading-relaxed">
-              Votre guide vers l'épanouissement personnel et le bien-être. 
+
               Transformez votre vie avec nos produits et services de coaching.
             </p>
           </div>
@@ -29,8 +29,9 @@ const Footer = () => {
               <MapPin className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
               <div>
                 <p className="text-sm sm:text-base text-green-200">Glow Secret CM</p>
-                <p className="text-sm sm:text-base text-green-200"> Dschang, Cameroun</p>
-                
+
+                <p className="text-sm sm:text-base text-green-200">123 Rue du Bien-être</p>
+                <p className="text-sm sm:text-base text-green-200">75001 Paris, France</p>
                 <a 
                   href="https://maps.google.com" 
                   target="_blank" 

@@ -33,7 +33,7 @@ const ServicesSection = () => {
       title: "Soins du Visage",
       description: "Sessions collectives pour créer des liens et partager des expériences enrichissantes",
       image: "/imgages/visage.avif"
-    }
+    },
   ];
 
   return (
@@ -75,7 +75,6 @@ const ServicesSection = () => {
               </div>
               
               {/* Overlay au hover */}
-              
             </div>
           ))}
         </div>
